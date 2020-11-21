@@ -5,6 +5,7 @@ export const HomeContainer = styled.div`
     justify-content: center;
     min-height: 100vh;
     align-items: center;
+    flex-direction: column;
 `;
 
 export const LogoImage = styled.img`
