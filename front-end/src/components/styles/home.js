@@ -10,4 +10,5 @@ export const HomeContainer = styled.div`
 
 export const LogoImage = styled.img`
     align-self: center;
+    width: 100%;
 `;
