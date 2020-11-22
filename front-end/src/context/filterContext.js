@@ -83,37 +83,16 @@ const StateProvider = ({ children }) => {
           ...state,
           preferences: {
             ...state.preferences,
-            gender: {
-              ...state.preferences.gender,
-              [payload.key]: payload.value,
-            },
+            gender: payload,
           },
         };
 
       case actions.UPDATE_DEFAULT_GENDER_PREFERENCES:
-        if (payload.value) {
-          return {
-            ...state,
-            preferences: {
-              ...state.preferences,
-              gender: {
-                male: 3,
-                female: 3,
-                transgender: 3,
-                nonBinary: 3,
-                noPreferences: payload.value,
-              },
-            },
-          };
-        }
         return {
           ...state,
           preferences: {
             ...state.preferences,
-            gender: {
-              ...state.preferences.gender,
-              noPreferences: payload.value,
-            },
+            gender: payload,
           },
         };
 
