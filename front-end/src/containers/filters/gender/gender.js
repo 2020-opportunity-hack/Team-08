@@ -1,33 +1,41 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useContext, useEffect, useState } from "react";
 
 import CheckBox from "../../../components/common/checkbox";
+import { actions, store } from "../../../context/filterContext";
 
 const Gender = () => {
-  const [isGenderFilterActive, setIsGenderFilterActive] = useState(false);
-
   const [isMaleFilterActive, setIsMaleFilterActive] = useState(false);
   const [isFemaleFilterActive, setIsFemaleFilterActive] = useState(false);
   const [isOtherFilterActive, setIsOtherFilterActive] = useState(false);
 
-  const toggleState = (gender) => {
+  const { dispatch } = useContext(store);
+
+  const toggleState = (gender, value) => {
     switch (gender) {
       case "Male":
-        setIsMaleFilterActive(!isMaleFilterActive);
+        setIsMaleFilterActive(value);
         break;
       case "Female":
-        setIsFemaleFilterActive(!isFemaleFilterActive);
+        setIsFemaleFilterActive(value);
         break;
       case "Other":
-        setIsOtherFilterActive(!isOtherFilterActive);
+        setIsOtherFilterActive(value);
         break;
       default:
         break;
     }
-
-    setIsGenderFilterActive(
-      isMaleFilterActive && isFemaleFilterActive && isOtherFilterActive
-    );
   };
+
+  useEffect(() => {
+    dispatch({
+      type: actions.FILETR_GENDER,
+      payload: {
+        isMaleFilterActive,
+        isFemaleFilterActive,
+        isOtherFilterActive,
+      },
+    });
+  }, [isMaleFilterActive, isFemaleFilterActive, isOtherFilterActive, dispatch]);
 
   return (
     <Fragment>

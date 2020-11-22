@@ -2,17 +2,22 @@ import React from "react";
 
 const CheckBox = (props) => {
   const { genderId, isChecked, toggle, gender } = props;
+
+  const toggleState = (event) => {
+    toggle(gender, event.target.checked);
+  };
+
   return (
-    <div class="form-check form-check-inline">
+    <div className="form-check form-check-inline">
       <input
-        class="form-check-input"
+        className="form-check-input"
         type="checkbox"
         id={genderId}
         value={genderId}
         checked={isChecked}
-        onClick={() => toggle(gender)}
+        onChange={(event) => toggleState(event)}
       />
-      <label class="form-check-label" for={genderId}>
+      <label className="form-check-label" htmlFor={genderId}>
         <h5>{gender}</h5>
       </label>
     </div>

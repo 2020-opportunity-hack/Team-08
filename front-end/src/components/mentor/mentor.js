@@ -3,7 +3,6 @@ import React from "react";
 import PlaceholderImage from "./placeholder.jpg";
 
 const Mentor = (props) => {
-  console.log("VP_DEBUG: props -", props);
   return (
     <div className="card m-2">
       <img className="card-img-top" src={PlaceholderImage} alt="Placeholder" />
