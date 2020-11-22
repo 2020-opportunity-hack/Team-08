@@ -10,10 +10,10 @@ const GenderPreferences = () => {
   const { state, dispatch } = useContext(store);
   const genderPreferences = state.preferences.gender;
 
-  const [warningForMale, setWarningForMale] = useState(false);
-  const [warningForFemale, setWarningForFemale] = useState(false);
-  const [warningForTransgender, setWarningForTransgender] = useState(false);
-  const [warningForNonBinary, setWarningForNonBinary] = useState(false);
+  const [, setWarningForMale] = useState(false);
+  const [, setWarningForFemale] = useState(false);
+  const [, setWarningForTransgender] = useState(false);
+  const [, setWarningForNonBinary] = useState(false);
   const [, setUpdateState] = useState();
 
   const genderValues = [
