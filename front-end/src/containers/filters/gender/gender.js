@@ -12,13 +12,13 @@ const Gender = () => {
 
   const toggleState = (gender, value) => {
     switch (gender) {
-      case "Male":
+      case "male":
         setIsMaleFilterActive(value);
         break;
-      case "Female":
+      case "female":
         setIsFemaleFilterActive(value);
         break;
-      case "Other":
+      case "other":
         setIsOtherFilterActive(value);
         break;
       default:
@@ -44,22 +44,22 @@ const Gender = () => {
       </div>
       <div className="col-10 offset-1 d-flex justify-content-center">
         <CheckBox
-          genderId="maleGender"
+          id="male"
           isChecked={isMaleFilterActive}
           toggle={toggleState}
-          gender="Male"
+          value="Male"
         />
         <CheckBox
-          genderId="femaleGender"
+          id="female"
           isChecked={isFemaleFilterActive}
           toggle={toggleState}
-          gender="Female"
+          value="Female"
         />
         <CheckBox
-          genderId="otherGender"
+          id="other"
           isChecked={isOtherFilterActive}
           toggle={toggleState}
-          gender="Other"
+          value="Other"
         />
       </div>
     </Fragment>

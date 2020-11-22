@@ -1,15 +1,16 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import { SectionHeading } from "../styles/common";
 import GenderPreferences from "./questions/gender-preferences/gender-preferences";
+import { StateProvider } from "../../context/filterContext";
 
 const PreferencesForm = () => {
   return (
-    <Fragment>
+    <StateProvider>
       <div className="container mt-5">
         <div className="row">
           <SectionHeading className="col-12">
-            <h3>Set Preferences for Mentor Match</h3>
+            <h1>Set Preferences for Mentor Match</h1>
           </SectionHeading>
           <SectionHeading className="col-12 mt-4">
             <h4>
@@ -25,7 +26,7 @@ const PreferencesForm = () => {
           <GenderPreferences />
         </div>
       </div>
-    </Fragment>
+    </StateProvider>
   );
 };
 
