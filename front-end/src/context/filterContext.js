@@ -2,7 +2,18 @@ import React, { useReducer, createContext } from "react";
 
 import Mentors from "./mentor-list.json";
 
-const initialState = { mentors: Mentors };
+const initialState = {
+  mentors: Mentors,
+  preferences: {
+    gender: {
+      male: undefined,
+      female: undefined,
+      transgender: undefined,
+      nonBinary: undefined,
+      noPreferences: undefined,
+    },
+  },
+};
 
 const actions = {
   FILETR_GENDER: "FILETR_GENDER",
