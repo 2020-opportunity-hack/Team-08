@@ -1,50 +1,62 @@
-{
-    "1": {
+[
+    {
         "name": "Mentor 1",
-        "gender": "Male"
+        "gender": "Male",
+        "rating": 100
     },
-    "2": {
-        "name": "Mentor 2",
-        "gender": "Male"
-    },
-    "3": {
-        "name": "Mentor 3",
-        "gender": "Male"
-    },
-    "4": {
-        "name": "Mentor 4",
-        "gender": "Male"
-    },
-    "5": {
-        "name": "Mentor 5",
-        "gender": "Female"
-    },
-    "6": {
-        "name": "Mentor 6",
-        "gender": "Female"
-    },
-    "7": {
-        "name": "Mentor 7",
-        "gender": "Female"
-    },
-    "8": {
-        "name": "Mentor 8",
-        "gender": "Female"
-    },
-    "9": {
+    {
         "name": "Mentor 9",
-        "gender": "Other"
+        "gender": "Other",
+        "rating": 100
     },
-    "10": {
+    {
+        "name": "Mentor 5",
+        "gender": "Female",
+        "rating": 95
+    },
+    {
         "name": "Mentor 10",
-        "gender": "Other"
+        "gender": "Other",
+        "rating": 95
     },
-    "11": {
+    {
+        "name": "Mentor 2",
+        "gender": "Male",
+        "rating": 90
+    },
+    {
         "name": "Mentor 11",
-        "gender": "Other"
+        "gender": "Other",
+        "rating": 90
     },
-    "12": {
+    {
+        "name": "Mentor 6",
+        "gender": "Female",
+        "rating": 85
+    },
+    {
         "name": "Mentor 12",
-        "gender": "Other"
+        "gender": "Other",
+        "rating": 85
+    },
+    {
+        "name": "Mentor 3",
+        "gender": "Male",
+        "rating": 80
+    },
+    {
+        "name": "Mentor 7",
+        "gender": "Female",
+        "rating": 75
+    },
+    {
+        "name": "Mentor 4",
+        "gender": "Male",
+        "rating": 70
+    },
+    {
+        "name": "Mentor 8",
+        "gender": "Female",
+        "rating": 65
     }
-}
+]
