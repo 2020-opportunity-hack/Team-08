@@ -2,10 +2,23 @@ import React, { useReducer, createContext } from "react";
 
 import Mentors from "./mentor-list.json";
 
-const initialState = { mentors: Mentors };
+const initialState = {
+  mentors: Mentors,
+  preferences: {
+    gender: {
+      male: undefined,
+      female: undefined,
+      transgender: undefined,
+      nonBinary: undefined,
+      noPreferences: false,
+    },
+  },
+};
 
 const actions = {
   FILETR_GENDER: "FILETR_GENDER",
+  UPDATE_GENDER_PREFERENCES: "UPDATE_GENDER_PREFERENCES",
+  UPDATE_DEFAULT_GENDER_PREFERENCES: "UPDATE_DEFAULT_GENDER_PREFERENCES",
 };
 
 const store = createContext(initialState);
@@ -64,6 +77,25 @@ const StateProvider = ({ children }) => {
           mentors: updatedMentorList,
         };
       }
+
+      case actions.UPDATE_GENDER_PREFERENCES:
+        return {
+          ...state,
+          preferences: {
+            ...state.preferences,
+            gender: payload,
+          },
+        };
+
+      case actions.UPDATE_DEFAULT_GENDER_PREFERENCES:
+        return {
+          ...state,
+          preferences: {
+            ...state.preferences,
+            gender: payload,
+          },
+        };
+
       default:
         return state;
     }

@@ -1,10 +1,10 @@
 import React from "react";
 
 const CheckBox = (props) => {
-  const { genderId, isChecked, toggle, gender } = props;
+  const { id, isChecked, toggle, value } = props;
 
   const toggleState = (event) => {
-    toggle(gender, event.target.checked);
+    toggle(id, event.target.checked);
   };
 
   return (
@@ -12,13 +12,13 @@ const CheckBox = (props) => {
       <input
         className="form-check-input"
         type="checkbox"
-        id={genderId}
-        value={genderId}
+        id={id}
+        value={id}
         checked={isChecked}
         onChange={(event) => toggleState(event)}
       />
-      <label className="form-check-label" htmlFor={genderId}>
-        <h5>{gender}</h5>
+      <label className="form-check-label" htmlFor={id}>
+        <h5>{value}</h5>
       </label>
     </div>
   );

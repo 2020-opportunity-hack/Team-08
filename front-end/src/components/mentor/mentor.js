@@ -12,6 +12,9 @@ const Mentor = (props) => {
       <div className="card-body mt-n4 d-flex justify-content-center">
         <h5 className="card-title">{props.data.gender}</h5>
       </div>
+      <div className="card-body mt-n4 d-flex justify-content-center">
+        <h5 className="card-title">{props.data.rating} %</h5>
+      </div>
     </div>
   );
 };
