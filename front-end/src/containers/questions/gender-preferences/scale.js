@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import RadioButton from "../../../common/radioButton";
+import RadioButton from "../../../components/common/radioButton";
 
 const Scale = (props) => {
   const { name, selectedValue, onClickEvent, shouldDisable } = props;

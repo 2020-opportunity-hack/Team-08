@@ -18,10 +18,10 @@ const PreferencesForm = () => {
             </h4>
           </SectionHeading>
           <SectionHeading className="col-12 mt-1">
-            <h4>0 means you are not confortable at all</h4>
+            <h4>0 means you are not comfortable at all</h4>
           </SectionHeading>
           <SectionHeading className="col-12 mt-1">
-            <h4>3 means you're most conformatble</h4>
+            <h4>3 means you're most comfortable</h4>
           </SectionHeading>
           <GenderPreferences />
         </div>
