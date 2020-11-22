@@ -23,6 +23,17 @@ const Home = (props) => {
             </span>
           </div>
         </div>
+
+        <div className="row">
+          <div className="col-12">
+            <span
+              className="btn btn-link text-decoration-none"
+              onClick={() => props.history.push("/set-mentor-preferences")}
+            >
+              <h2>Set Preferences for Mentor Match</h2>
+            </span>
+          </div>
+        </div>
       </HomeContainer>
     </div>
   );
