@@ -28,9 +28,8 @@ Full stack developer
 <br />
 
 <br />
-
-## Proposal
 ----
+## Proposal
 Greenwood specifically asked us just for a matchmaking algorithm, but we wanted to go the extra mile and give them a full technical plan that can last for a long time.
 
 <p align="center">
