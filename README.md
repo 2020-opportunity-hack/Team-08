@@ -34,7 +34,7 @@ Full stack developer
 - Currently students are matched mentors via manual methods
 - Need a more sophisticated way to match metors to mentees in larger quantities
 
-#### **Criterion to consider:**
+#### **Criteria to consider:**
 After holding multiple meetings with the Greenwood staff, we finalized a few important criteria that the algorithm must consider:
 
 - Ethnicity
@@ -49,6 +49,7 @@ After holding multiple meetings with the Greenwood staff, we finalized a few imp
 ## Proposal
 ----
 Greenwood specifically asked us just for a matchmaking algorithm, but we wanted to go the extra mile and give them a full technical plan that can last for a long time.
+
 ![image](https://en.meming.world/images/en/thumb/4/4a/Modern_Problems_Require_Modern_Solutions.jpg/300px-Modern_Problems_Require_Modern_Solutions.jpg)
 - We propose a three step plan that caters to both, Greenwoods immedieate and long term needs.
 - Step 1 (Prototyped): Match making ALgorithm and UI
@@ -71,6 +72,31 @@ Methodology
   - Potential Future:
     In the long term, the AI will no longer just help in matchmaking, but also find new opportunities such as unexplored geographical areas, underutilised tools, and most effective mentorship methods. This could springboard a bunch of other methods to further Greenwood’s goal of increased representation of Black and Latinx communities in the business world.
 
+## Inspiration
 
+Greenwood is an NPO that provides career opportunities to Latinx and Black Communities within the financial industry.
+
+It has been 3 years since they implemented their business model of matching students with mentors for guidance in career prep. Having witnessed success with over 300 students in 2019, they are now looking to expand their reach to the national level. With this expansion, they expect their students to increase by an exponential amount. 
+
+All of us have been students in the US, though based in India, and we applaud Greenwood's initiative. Hopefully, in the future, we may be able to replicate such a program in our own country as well.
   
+## Challenges we ran into
+
+We found it challenging to try and balance the algorithm. Adding weights to each criterion was a complex task. Too high a weight gave too much preference to criteria and visa versa. Moreover, trying to decide which criteria were more important than the other took quite a bit of time, however, after having had several discussions with the Greenwood staff, we were able to come to a conclusion.
+
+## Accomplishments that I'm proud of
+
+The conclusion that we drew in the previous section is essentially the algorithm we designed. We are proud of how it functions. Albeit not perfect, it does a decent job for having only worked on it for over a week. We are sure we will be able to further optimize the algorithm if we continue to work with Greenwood.
+
+## What we learned
+
+The unique dynamic of trying to empower Black and LatinX communities, introduced to us by Greenwood, taught us many invaluable lessons on problems faced by these communities. It was a pleasure to work with Greenwood to try and devise an algorithm that can potentially help these communities gain the mentorship they need to kick start their careers. Careers they might never have had the option of pursuing it were not for Greenwood.
+
+## What's next for Greenwood Project - Opportunity Hack
+
+If we win, the financial funding will be enough for us to dedicate our time to the Greenwood project. Along with improving the UI experience, we can further optimize the algorithm to generate better matches. Better the match, better the mentor-student experience, and thus better the rep for Greenwood.
+
+Once Greenwood collects and digitizes enough data over the next few months, we can test out multiple machine learning models, providing better matches at a faster pace. 
+
+At the end of the day, we want to make sure that the algorithm and model help accelerate Greenwood's growth and reputation. By trying our level best to ensure the best possible mentor-student matches, we want to stimulate extremely positive experiences for Greenwood's clients. We hope that word of these positive experiences spread around, leading to a greater number of applicants for Greenwood. 
 
