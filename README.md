@@ -11,7 +11,7 @@ Note: For more specific details on the implementation of our comprehensive plan 
 
 ## Team Members
 ----
-### Saksham Gumber
+### [Saksham Gumber](https://github.com/sakg)
 Film maker and animator
 
 ### [Sehan Shetty](https://github.com/yttehs123)
