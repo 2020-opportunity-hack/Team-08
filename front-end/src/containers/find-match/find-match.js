@@ -14,6 +14,14 @@ const FindMatch = () => {
       <StateProvider>
         <div className="container-fluid mt-5">
           <div className="row">
+            <div className="container">
+              <div className="row">
+                <SectionHeading className="col-12 alert alert-warning">
+                  <h3>This is a sample page</h3>
+                </SectionHeading>
+              </div>
+            </div>
+
             <SectionHeading className="col-12 col-md-4 offset-md-4 col-lg-2 offset-lg-5">
               <div
                 data-toggle="collapse"

@@ -1,6 +1,7 @@
 import React from "react";
 
 import { HomeContainer, LogoImage } from "../styles/home";
+import { SectionHeading } from "../styles/common";
 import Logo from "./logo.png";
 
 const Home = (props) => {
@@ -8,7 +9,11 @@ const Home = (props) => {
     <div className="container-fluid">
       <HomeContainer>
         <div className="row">
-          <div className="col-12">
+          <SectionHeading className="col-12 alert alert-warning">
+            <h3>This is a sample page</h3>
+          </SectionHeading>
+
+          <div className="col-12 mt-5">
             <LogoImage src={Logo} />
           </div>
         </div>

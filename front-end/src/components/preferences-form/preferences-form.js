@@ -9,6 +9,10 @@ const PreferencesForm = (props) => {
     <StateProvider>
       <div className="container mt-5">
         <div className="row">
+          <SectionHeading className="col-12 alert alert-warning">
+            <h3>This is a sample page</h3>
+          </SectionHeading>
+
           <SectionHeading className="col-12">
             <h1>Set Preferences for Mentor Match</h1>
           </SectionHeading>
