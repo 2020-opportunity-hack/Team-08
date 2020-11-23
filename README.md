@@ -95,3 +95,4 @@ Once Greenwood collects and digitizes enough data over the next few months, we c
 
 At the end of the day, we want to make sure that the algorithm and model help accelerate Greenwood's growth and reputation. By trying our level best to ensure the best possible mentor-student matches, we want to stimulate extremely positive experiences for Greenwood's clients. We hope that word of these positive experiences spread around, leading to a greater number of applicants for Greenwood. 
 
+----
