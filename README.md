@@ -14,10 +14,10 @@ Note: For more specific details on the implementation of our comprehensive plan 
 ## Team Members
 ----
 ### [Saksham Gumber](https://github.com/sakg)
-Film maker and animator
+Filmmaker and Animator
 
 ### [Sehan Shetty](https://github.com/yttehs123)
-AI and GIS developer
+AI and Back-end developer
 
 ### [Srujan Gupta](https://github.com/notsrujangupta)
 Mathematician and AI developer
