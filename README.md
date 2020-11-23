@@ -37,7 +37,7 @@ Full stack developer
 Greenwood specifically asked us just for a matchmaking algorithm, but we wanted to go the extra mile and give them a full technical plan that can last for a long time.
 
 <p align="center">
-<img src="https://en.meming.world/images/en/thumb/4/4a/Modern_Problems_Require_Modern_Solutions.jpg/300px-Modern_Problems_Require_Modern_Solutions.jpg">
+<img src="https://media.giphy.com/media/9058ZMj6ooluP4UUPl/giphy.gif">
 </p>
 
 - We propose a three step plan that caters to both, Greenwoods immedieate and long term needs.
