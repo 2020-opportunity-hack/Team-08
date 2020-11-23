@@ -34,21 +34,23 @@ Full stack developer
 - Currently students are matched mentors via manual methods
 - Need a more sophisticated way to match metors to mentees in larger quantities
 
-#### **Inputs to consider:**
-Some of the parameters to consider to make an effective match:
+#### **Criterion to consider:**
+After holding multiple meetings with the Greenwood staff, we finalized a few important criteria that the algorithm must consider:
 
 - Ethnicity
-- Industry Specialization
-- educational background (High School or College)
 - Gender
+- Technical expertise (powerpoint, excel, word)
+- Industry Specialization
+- Educational background (High School or College)
 
-Apart from above generic parameters, there are some tags attached to each profile which also can be considered to create a match
 
 <br />
 
 ## Proposal
 ----
-- When signing up for the project, mentor and mentee both enter their personal details which then will be used as parameters considered for matching
-- Once users sign-in to the app, they will have access to recommendeded match sprovided by the algorithm
-- Users can update preference parameters to alter the reccomendation algorithm results to get more personalized matches
-- Users also have the option to override the system recommended matches and add manual filters to serach for match of their choice
+- We propose a three step plan that caters to both, Greenwoods immedieate and long term needs.
+- Step 1 (Prototyped): Match making ALgorithm and UI
+  - Due to the lack of digitised data, a amchine learning model is currently unfeasible. Therefore, we planned and coded an algorithm that weights each criterion respectfully
+  - 
+  
+
