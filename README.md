@@ -64,11 +64,11 @@ Methodology
  - Step 1 :
    Use inputs from 3 sources, 
    - Greenwood Database
-     ![image](https://user-images.githubusercontent.com/14848333/99937579-17a08800-2d8c-11eb-89ab-d67893fb2115.png)
+     <img src="https://user-images.githubusercontent.com/14848333/99937579-17a08800-2d8c-11eb-89ab-d67893fb2115.png">
    - Mentor UI
-     ![image](https://user-images.githubusercontent.com/14848333/99937638-330b9300-2d8c-11eb-8a4d-90d938af4e56.png)
+     <img src="https://user-images.githubusercontent.com/14848333/99937638-330b9300-2d8c-11eb-8a4d-90d938af4e56.png">
    - Student UI
-     ![image](https://user-images.githubusercontent.com/14848333/99937651-3acb3780-2d8c-11eb-9037-1d48a2062958.png)
+     <img src="https://user-images.githubusercontent.com/14848333/99937651-3acb3780-2d8c-11eb-9037-1d48a2062958.png">
   - Data for ML (Steps 2 and 3)
     Work with Greenwood and come up with metrics that may be of use to them to accurately judge how well a mentorship went (the most obvious of which would be to ask for some kind of feedback from students/mentors) to come up with data points that will give us insight into future operations.
   - Potential Future:
