@@ -7,7 +7,7 @@
 
 Note: For more specific details on the implementation of our comprehensive plan for Greenwood's matchamking methodology, please take a gander at the wiki of this repository!
 
-[Youtube Pitch Link](https://github.com/2020-opportunity-hack) 
+[Youtube Pitch Link](https://www.youtube.com/watch?v=D4M8GD_yURM&feature=youtu.be) 
 
 <br />
 
@@ -42,7 +42,7 @@ Greenwood specifically asked us just for a matchmaking algorithm, but we wanted 
 
 - We propose a three step plan that caters to both, Greenwoods immedieate and long term needs.
 
-- Step 1 (Prototyped): Match making ALgorithm and UI
+- Step 1 (Prototyped): Match making ALgorithm and UI ([Sample UI](https://patelviralb.github.io/2020-opportunity-hack-greenwood/#/))
   - Due to the lack of digitised data, a machine learning model is currently unfeasible. Therefore, we planned and coded an algorithm that weights each criterion respectfully
 
 - Step 2 : Simple Machine Learning
