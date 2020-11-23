@@ -22,9 +22,9 @@
 ## Overview
 ----
 #### **Requirements:**
-- Need to create mentor matching platform
-- Currently only students' numbers are considered to match it to the mentor
-- Need more sophisticated way to match metor to mentees
+- Need to create mentor matching algorithm and platform
+- Currently students numbers are manually matcedh to mentors
+- Need a more sophisticated way to match mentosr to mentees to process larger amounts of data
 
 #### **Inputs to consider:**
 Some of the parameters to consider to make an effective match:
