@@ -5,6 +5,8 @@
 
 ### [Problem Statement](https://www.ohack.org/hackathon/non-profits#h.md91u6f5t17s)
 
+Note: For more specific details on the implementation of our comprehensive plan for Greenwood's matchamking methodology, please take a gander at the wiki of this repository!
+
 <br />
 
 ## Team Members
@@ -44,5 +46,3 @@ Apart from above generic parameters, there are some tags attached to each profil
 - Once users sign-in to the app, they will have access to recommendeded match sprovided by the algorithm
 - Users can update preference parameters to alter the reccomendation algorithm results to get more personalized matches
 - Users also have the option to override the system recommended matches and add manual filters to serach for match of their choice
-
-For more specific details on our comprehensive plan for Greenwood's matchamking methodology, please take a gander at the wiki of this repository!
