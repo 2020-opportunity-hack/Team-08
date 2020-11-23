@@ -20,7 +20,7 @@ Filmmaker and Animator
 AI and Back-end developer
 
 ### [Srujan Gupta](https://github.com/notsrujangupta)
-Mathematician and AI developer
+Back-end and AI developer
 
 ### [Viral Patel](https://github.com/patelviralb)
 Full stack developer
