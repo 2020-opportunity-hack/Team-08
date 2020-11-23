@@ -1,9 +1,9 @@
 import React, { Fragment, useContext, useEffect, useState } from "react";
 
 import Scale from "./scale";
-import { actions, store } from "../../../../context/filterContext";
-import CheckBox from "../../../common/checkbox";
-import MenteePreferenceServices from "../../../../services/mentee-preferences-service";
+import { actions, store } from "../../../context/filterContext";
+import CheckBox from "../../../components/common/checkbox";
+import MenteePreferenceServices from "../../../services/mentee-preferences-service";
 import $ from "jquery";
 
 const GenderPreferences = () => {
