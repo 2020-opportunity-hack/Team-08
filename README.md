@@ -11,13 +11,19 @@ Note: For more specific details on the implementation of our comprehensive plan 
 
 ## Team Members
 ----
-### [Srujan Gupta](https://github.com/notsrujangupta)
+### Saksham Gumber
+Fiml maker and animator
 
 ### [Sehan Shetty](https://github.com/yttehs123)
+AI and GIS developer
+
+### [Srujan Gupta](https://github.com/notsrujangupta)
+Mathematician and AI developer
 
 ### [Viral Patel](https://github.com/patelviralb)
+Full stack developer
 
-### Saksham Gumber
+
 
 <br />
 
