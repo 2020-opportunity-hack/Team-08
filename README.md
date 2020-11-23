@@ -51,7 +51,7 @@ After holding multiple meetings with the Greenwood staff, we finalized a few imp
 Greenwood specifically asked us just for a matchmaking algorithm, but we wanted to go the extra mile and give them a full technical plan that can last for a long time.
 
 <p align="center">
-![image](https://en.meming.world/images/en/thumb/4/4a/Modern_Problems_Require_Modern_Solutions.jpg/300px-Modern_Problems_Require_Modern_Solutions.jpg)
+<img width="460" height="300" src="https://en.meming.world/images/en/thumb/4/4a/Modern_Problems_Require_Modern_Solutions.jpg/300px-Modern_Problems_Require_Modern_Solutions.jpg">
 </p>
 - We propose a three step plan that caters to both, Greenwoods immedieate and long term needs.
 - Step 1 (Prototyped): Match making ALgorithm and UI
