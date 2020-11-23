@@ -27,23 +27,6 @@ Full stack developer
 
 <br />
 
-## Overview
-----
-#### **Requirements:**
-- Need to create a mentor-mentee matching algorithm and platform
-- Currently students are matched mentors via manual methods
-- Need a more sophisticated way to match metors to mentees in larger quantities
-
-#### **Criteria to consider:**
-After holding multiple meetings with the Greenwood staff, we finalized a few important criteria that the algorithm must consider:
-
-- Ethnicity
-- Gender
-- Technical expertise (powerpoint, excel, word)
-- Industry Specialization
-- Educational background (High School or College)
-
-
 <br />
 
 ## Proposal
@@ -53,15 +36,21 @@ Greenwood specifically asked us just for a matchmaking algorithm, but we wanted 
 <p align="center">
 <img src="https://en.meming.world/images/en/thumb/4/4a/Modern_Problems_Require_Modern_Solutions.jpg/300px-Modern_Problems_Require_Modern_Solutions.jpg">
 </p>
+
 - We propose a three step plan that caters to both, Greenwoods immedieate and long term needs.
+
 - Step 1 (Prototyped): Match making ALgorithm and UI
   - Due to the lack of digitised data, a machine learning model is currently unfeasible. Therefore, we planned and coded an algorithm that weights each criterion respectfully
+
 - Step 2 : Simple Machine Learning
   - With medium amounts of data, we can use some simplistic ML techniques.
+
 - Step 3 : Complex AI
   - vast data allows for, and needs powerful techniques that can provide great insight.
+
 Methodology
- - Step 1 :
+
+- Step 1 :
    Use inputs from 3 sources, 
    - Greenwood Database
      <img src="https://user-images.githubusercontent.com/14848333/99937579-17a08800-2d8c-11eb-89ab-d67893fb2115.png">
@@ -71,7 +60,8 @@ Methodology
      <img src="https://user-images.githubusercontent.com/14848333/99937651-3acb3780-2d8c-11eb-9037-1d48a2062958.png">
   - Data for ML (Steps 2 and 3)
     Work with Greenwood and come up with metrics that may be of use to them to accurately judge how well a mentorship went (the most obvious of which would be to ask for some kind of feedback from students/mentors) to come up with data points that will give us insight into future operations.
-  - Potential Future:
+
+- Potential Future:
     In the long term, the AI will no longer just help in matchmaking, but also find new opportunities such as unexplored geographical areas, underutilised tools, and most effective mentorship methods. This could springboard a bunch of other methods to further Greenwood’s goal of increased representation of Black and Latinx communities in the business world.
 
 ## Inspiration
