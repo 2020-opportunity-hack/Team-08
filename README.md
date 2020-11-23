@@ -22,17 +22,16 @@
 ## Overview
 ----
 #### **Requirements:**
-- Need to create mentor matching platform
-- Currently only students' numbers are considered to match it to the mentor
-- Need more sophisticated way to match metor to mentees
+- Need to create a mentor-mentee matching algorithm and platform
+- Currently students are matched mentors via manual methods
+- Need a more sophisticated way to match metors to mentees in larger quantities
 
 #### **Inputs to consider:**
 Some of the parameters to consider to make an effective match:
 
 - Ethnicity
 - Industry Specialization
-- Shared educational background (High School or College)
-- Location
+- educational background (High School or College)
 - Gender
 
 Apart from above generic parameters, there are some tags attached to each profile which also can be considered to create a match
@@ -41,7 +40,7 @@ Apart from above generic parameters, there are some tags attached to each profil
 
 ## Proposal
 ----
-- When signing up for the project, mentor and mentee both enters their personal details which then be used as parameters to consider for matching
-- Once user sign-in to the app, they will have access to recommended match provided by the system
-- User can update parameters to filter out matches from the recommended choice
-- User also has option to override the system recommended matches and add manual filters to serach for match of their choice
+- When signing up for the project, mentor and mentee both enter their personal details which then will be used as parameters considered for matching
+- Once users sign-in to the app, they will have access to recommendeded match sprovided by the algorithm
+- Users can update preference parameters to alter the reccomendation algorithm results to get more personalized matches
+- Users also have the option to override the system recommended matches and add manual filters to serach for match of their choice
