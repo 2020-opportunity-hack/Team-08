@@ -48,7 +48,7 @@ Greenwood specifically asked us just for a matchmaking algorithm, but we wanted 
 - Step 3 : Complex AI
   - vast data allows for, and needs powerful techniques that can provide great insight.
 
-Methodology
+## Methodology
 
 - Step 1 :
    Use inputs from 3 sources, 
