@@ -86,7 +86,7 @@ All of us have been students in the US, though based in India, and we applaud Gr
 
 We found it challenging to try and balance the algorithm. Adding weights to each criterion was a complex task. Too high a weight gave too much preference to criteria and visa versa. Moreover, trying to decide which criteria were more important than the other took quite a bit of time, however, after having had several discussions with the Greenwood staff, we were able to come to a conclusion.
 
-## Accomplishments that I'm proud of
+## Accomplishments that we are proud of
 
 The conclusion that we drew in the previous section is essentially the algorithm we designed. We are proud of how it functions. Albeit not perfect, it does a decent job for having only worked on it for over a week. We are sure we will be able to further optimize the algorithm if we continue to work with Greenwood.
 
